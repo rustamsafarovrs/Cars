@@ -11,6 +11,7 @@
 		CBFA77BA28D84385006DA529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA77B928D84385006DA529 /* ContentView.swift */; };
 		CBFA77BC28D84395006DA529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA77BB28D84395006DA529 /* Assets.xcassets */; };
 		CBFA77BF28D84395006DA529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA77BE28D84395006DA529 /* Preview Assets.xcassets */; };
+		CBFA77C628D84436006DA529 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA77C528D84436006DA529 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		CBFA77B928D84385006DA529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBFA77BB28D84395006DA529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFA77BE28D84395006DA529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBFA77C528D84436006DA529 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CBFA77C728D859A5006DA529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		CBFA77B628D84385006DA529 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				CBFA77C728D859A5006DA529 /* Info.plist */,
 				CBFA77B728D84385006DA529 /* CarsApp.swift */,
 				CBFA77B928D84385006DA529 /* ContentView.swift */,
 				CBFA77BB28D84395006DA529 /* Assets.xcassets */,
 				CBFA77BD28D84395006DA529 /* Preview Content */,
+				CBFA77C528D84436006DA529 /* ViewModel.swift */,
 			);
 			path = Cars;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFA77BA28D84385006DA529 /* ContentView.swift in Sources */,
+				CBFA77C628D84436006DA529 /* ViewModel.swift in Sources */,
 				CBFA77B828D84385006DA529 /* CarsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = VGC8SXFVFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = VGC8SXFVFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cars/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
